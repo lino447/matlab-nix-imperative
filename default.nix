@@ -26,6 +26,7 @@ let
     libXtst
     libXxf86vm
     libxcb
+    libXcomposite
   ]);
 in {
   matlab = runScript: (pkgs.buildFHSUserEnv {
