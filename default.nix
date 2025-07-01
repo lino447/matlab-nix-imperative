@@ -2,6 +2,18 @@
 
 let
   targetPkgs = pkgs: with pkgs; [
+    gtk3
+    atk
+    cairo
+    cups
+    dbus
+    fontconfig
+    gdk-pixbuf
+    nspr
+    nss
+    pango
+    alsa-lib
+    libselinux
     glib
     libGL
     jre
@@ -27,6 +39,11 @@ let
     libXxf86vm
     libxcb
     libXcomposite
+    libXcursor
+    libXdamage
+    libXfixes
+    libXinerama
+    libXScrnSaver
   ]);
 in {
   matlab = runScript: (pkgs.buildFHSUserEnv {
