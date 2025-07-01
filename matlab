@@ -3,7 +3,7 @@
 default_version=2019a
 default_dir() {
     version="$1"
-    echo "$HOME/share/matlab-r$version/R$version"
+    echo "$HOME/MATLAB/R$version"
 }
 
 paren_args() {
