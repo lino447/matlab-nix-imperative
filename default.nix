@@ -9,6 +9,7 @@ let
     ncurses
     pam
     zlib
+    libxcrypt-legacy
   ]
   ++
   (with xorg; [
