@@ -26,6 +26,11 @@ let
     udev
     # For MATLAB R2021a
     freetype
+    # For MATLAB R2023a
+    gtk2
+    libdrm
+    mesa
+    libuuid
   ]
   ++
   (with xorg; [
