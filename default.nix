@@ -24,6 +24,8 @@ let
     libxcrypt-legacy
     xkeyboard_config
     udev
+    # For MATLAB R2021a
+    freetype
   ]
   ++
   (with xorg; [
