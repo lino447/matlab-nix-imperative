@@ -23,6 +23,7 @@ let
     zlib
     libxcrypt-legacy
     xkeyboard_config
+    udev
   ]
   ++
   (with xorg; [
