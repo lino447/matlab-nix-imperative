@@ -22,6 +22,7 @@ let
     pam
     zlib
     libxcrypt-legacy
+    xkeyboard_config
   ]
   ++
   (with xorg; [
