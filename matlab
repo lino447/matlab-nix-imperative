@@ -1,5 +1,11 @@
 #!/bin/sh
 
+CAN_LIB_DIR=$(
+    find /nix/store -name libcanlib.so -exec dirname {} \; | sort | tail -n 1)
+if [ -n "$CAN_LIB_DIR" ]; then
+    export LD_LIBRARY_PATH=$CAN_LIB_DIR:$LD_LIBRARY_PATH
+fi
+
 default_version=2023a
 default_dir() {
     version="$1"
