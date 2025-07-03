@@ -1,6 +1,6 @@
 #!/bin/sh
 
-default_version=2019a
+default_version=2023a
 default_dir() {
     version="$1"
     echo "$HOME/MATLAB/R$version"
